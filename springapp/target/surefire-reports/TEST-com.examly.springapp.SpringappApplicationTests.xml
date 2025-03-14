@@ -1,117 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.examly.springapp.SpringappApplicationTests" time="2.701" tests="10" errors="0" skipped="0" failures="10">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.examly.springapp.SpringappApplicationTests" time="2.56" tests="10" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
+    <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/coder/project/workspace/springapp/target/test-classes:/home/coder/project/workspace/springapp/target/classes:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.16/spring-boot-starter-data-jpa-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.7.16/spring-boot-starter-aop-2.7.16.jar:/home/coder/.m2/repository/org/springframework/spring-aop/5.3.30/spring-aop-5.3.30.jar:/home/coder/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.7.16/spring-boot-starter-jdbc-2.7.16.jar:/home/coder/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-jdbc/5.3.30/spring-jdbc-5.3.30.jar:/home/coder/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/home/coder/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar:/home/coder/.m2/repository/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar:/home/coder/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/home/coder/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/coder/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar:/home/coder/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/coder/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.8/jaxb-runtime-2.3.8.jar:/home/coder/.m2/repository/org/glassfish/jaxb/txw2/2.3.8/txw2-2.3.8.jar:/home/coder/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar:/home/coder/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-jpa/2.7.16/spring-data-jpa-2.7.16.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-commons/2.7.16/spring-data-commons-2.7.16.jar:/home/coder/.m2/repository/org/springframework/spring-orm/5.3.30/spring-orm-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-context/5.3.30/spring-context-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-tx/5.3.30/spring-tx-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-beans/5.3.30/spring-beans-5.3.30.jar:/home/coder/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/coder/.m2/repository/org/springframework/spring-aspects/5.3.30/spring-aspects-5.3.30.jar:/home/coder/.m2/repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy/1.12.23/byte-buddy-1.12.23.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.23/byte-buddy-agent-1.12.23.jar:/home/coder/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/coder/.m2/repository/com/mysql/mysql-connector-j/8.0.32/mysql-connector-j-8.0.32.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.16/spring-boot-starter-web-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter/2.7.16/spring-boot-starter-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.16/spring-boot-starter-logging-2.7.16.jar:/home/coder/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar:/home/coder/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/home/coder/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/home/coder/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/coder/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.16/spring-boot-starter-json-2.7.16.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.5/jackson-datatype-jdk8-2.13.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.5/jackson-module-parameter-names-2.13.5.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.16/spring-boot-starter-tomcat-2.7.16.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.80/tomcat-embed-core-9.0.80.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.80/tomcat-embed-el-9.0.80.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.80/tomcat-embed-websocket-9.0.80.jar:/home/coder/.m2/repository/org/springframework/spring-web/5.3.30/spring-web-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-webmvc/5.3.30/spring-webmvc-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-expression/5.3.30/spring-expression-5.3.30.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-devtools/2.7.16/spring-boot-devtools-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot/2.7.16/spring-boot-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.16/spring-boot-autoconfigure-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.7.16/spring-boot-starter-test-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test/2.7.16/spring-boot-test-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.7.16/spring-boot-test-autoconfigure-2.7.16.jar:/home/coder/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/home/coder/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/home/coder/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/home/coder/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/coder/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/coder/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/coder/.m2/repository/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/coder/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/coder/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/coder/.m2/repository/org/mockito/mockito-junit-jupiter/4.5.1/mockito-junit-jupiter-4.5.1.jar:/home/coder/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/home/coder/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/coder/.m2/repository/org/springframework/spring-core/5.3.30/spring-core-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-jcl/5.3.30/spring-jcl-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-test/5.3.30/spring-test-5.3.30.jar:/home/coder/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
-    <property name="java.vm.vendor" value="Debian"/>
+    <property name="java.class.path" value="/Users/aswinhariram/My Creativity/temp/lab4/springapp/target/test-classes:/Users/aswinhariram/My Creativity/temp/lab4/springapp/target/classes:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.2.3/spring-boot-starter-web-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.3/spring-boot-starter-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot/3.2.3/spring-boot-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.3/spring-boot-autoconfigure-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.3/spring-boot-starter-logging-3.2.3.jar:/Users/aswinhariram/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/Users/aswinhariram/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/Users/aswinhariram/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar:/Users/aswinhariram/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/Users/aswinhariram/.m2/repository/org/slf4j/jul-to-slf4j/2.0.12/jul-to-slf4j-2.0.12.jar:/Users/aswinhariram/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/aswinhariram/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.2.3/spring-boot-starter-json-3.2.3.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.2.3/spring-boot-starter-tomcat-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19.jar:/Users/aswinhariram/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.19/tomcat-embed-el-10.1.19.jar:/Users/aswinhariram/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.19/tomcat-embed-websocket-10.1.19.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-web/6.1.4/spring-web-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-beans/6.1.4/spring-beans-6.1.4.jar:/Users/aswinhariram/.m2/repository/io/micrometer/micrometer-observation/1.12.3/micrometer-observation-1.12.3.jar:/Users/aswinhariram/.m2/repository/io/micrometer/micrometer-commons/1.12.3/micrometer-commons-1.12.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-webmvc/6.1.4/spring-webmvc-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-aop/6.1.4/spring-aop-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-context/6.1.4/spring-context-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-expression/6.1.4/spring-expression-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.2.3/spring-boot-starter-data-jpa-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.2.3/spring-boot-starter-aop-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.2.3/spring-boot-starter-jdbc-3.2.3.jar:/Users/aswinhariram/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-jdbc/6.1.4/spring-jdbc-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/hibernate/orm/hibernate-core/6.4.4.Final/hibernate-core-6.4.4.Final.jar:/Users/aswinhariram/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/aswinhariram/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/Users/aswinhariram/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/Users/aswinhariram/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/Users/aswinhariram/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar:/Users/aswinhariram/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/aswinhariram/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.4/jaxb-runtime-4.0.4.jar:/Users/aswinhariram/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.4/jaxb-core-4.0.4.jar:/Users/aswinhariram/.m2/repository/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.jar:/Users/aswinhariram/.m2/repository/org/glassfish/jaxb/txw2/4.0.4/txw2-4.0.4.jar:/Users/aswinhariram/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/Users/aswinhariram/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/aswinhariram/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/Users/aswinhariram/.m2/repository/org/springframework/data/spring-data-jpa/3.2.3/spring-data-jpa-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/data/spring-data-commons/3.2.3/spring-data-commons-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-orm/6.1.4/spring-orm-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-tx/6.1.4/spring-tx-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-aspects/6.1.4/spring-aspects-6.1.4.jar:/Users/aswinhariram/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar:/Users/aswinhariram/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.2.3/spring-boot-starter-test-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-test/3.2.3/spring-boot-test-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.2.3/spring-boot-test-autoconfigure-3.2.3.jar:/Users/aswinhariram/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/aswinhariram/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/Users/aswinhariram/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/aswinhariram/.m2/repository/net/minidev/json-smart/2.5.0/json-smart-2.5.0.jar:/Users/aswinhariram/.m2/repository/net/minidev/accessors-smart/2.5.0/accessors-smart-2.5.0.jar:/Users/aswinhariram/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/aswinhariram/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/aswinhariram/.m2/repository/org/awaitility/awaitility/4.2.0/awaitility-4.2.0.jar:/Users/aswinhariram/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/aswinhariram/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/aswinhariram/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/aswinhariram/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/aswinhariram/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/aswinhariram/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/aswinhariram/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/aswinhariram/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/aswinhariram/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/aswinhariram/.m2/repository/org/mockito/mockito-core/5.7.0/mockito-core-5.7.0.jar:/Users/aswinhariram/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.12/byte-buddy-agent-1.14.12.jar:/Users/aswinhariram/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/aswinhariram/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.jar:/Users/aswinhariram/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/aswinhariram/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-core/6.1.4/spring-core-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-jcl/6.1.4/spring-jcl-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-test/6.1.4/spring-test-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-17"/>
-    <property name="user.timezone" value="Etc/UTC"/>
-    <property name="os.name" value="Linux"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter13353439069828442414.jar /home/coder/project/workspace/springapp/target/surefire 2025-03-14T06-40-16_688-jvmRun1 surefire2366409663156292604tmp surefire_03450412996271436722tmp"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/aswinhariram/My Creativity/temp/lab4/springapp/target/surefire/surefirebooter-20250314122048424_3.jar /Users/aswinhariram/My Creativity/temp/lab4/springapp/target/surefire 2025-03-14T12-20-48_383-jvmRun1 surefire-20250314122048424_1tmp surefire_0-20250314122048424_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/coder/project/workspace/springapp/target/test-classes:/home/coder/project/workspace/springapp/target/classes:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.16/spring-boot-starter-data-jpa-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.7.16/spring-boot-starter-aop-2.7.16.jar:/home/coder/.m2/repository/org/springframework/spring-aop/5.3.30/spring-aop-5.3.30.jar:/home/coder/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.7.16/spring-boot-starter-jdbc-2.7.16.jar:/home/coder/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-jdbc/5.3.30/spring-jdbc-5.3.30.jar:/home/coder/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/home/coder/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar:/home/coder/.m2/repository/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar:/home/coder/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/home/coder/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/coder/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar:/home/coder/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/coder/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.8/jaxb-runtime-2.3.8.jar:/home/coder/.m2/repository/org/glassfish/jaxb/txw2/2.3.8/txw2-2.3.8.jar:/home/coder/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar:/home/coder/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-jpa/2.7.16/spring-data-jpa-2.7.16.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-commons/2.7.16/spring-data-commons-2.7.16.jar:/home/coder/.m2/repository/org/springframework/spring-orm/5.3.30/spring-orm-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-context/5.3.30/spring-context-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-tx/5.3.30/spring-tx-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-beans/5.3.30/spring-beans-5.3.30.jar:/home/coder/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/coder/.m2/repository/org/springframework/spring-aspects/5.3.30/spring-aspects-5.3.30.jar:/home/coder/.m2/repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy/1.12.23/byte-buddy-1.12.23.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.23/byte-buddy-agent-1.12.23.jar:/home/coder/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/coder/.m2/repository/com/mysql/mysql-connector-j/8.0.32/mysql-connector-j-8.0.32.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.16/spring-boot-starter-web-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter/2.7.16/spring-boot-starter-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.16/spring-boot-starter-logging-2.7.16.jar:/home/coder/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar:/home/coder/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/home/coder/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/home/coder/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/coder/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.16/spring-boot-starter-json-2.7.16.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.5/jackson-datatype-jdk8-2.13.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.5/jackson-module-parameter-names-2.13.5.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.16/spring-boot-starter-tomcat-2.7.16.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.80/tomcat-embed-core-9.0.80.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.80/tomcat-embed-el-9.0.80.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.80/tomcat-embed-websocket-9.0.80.jar:/home/coder/.m2/repository/org/springframework/spring-web/5.3.30/spring-web-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-webmvc/5.3.30/spring-webmvc-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-expression/5.3.30/spring-expression-5.3.30.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-devtools/2.7.16/spring-boot-devtools-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot/2.7.16/spring-boot-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.16/spring-boot-autoconfigure-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.7.16/spring-boot-starter-test-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test/2.7.16/spring-boot-test-2.7.16.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.7.16/spring-boot-test-autoconfigure-2.7.16.jar:/home/coder/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/home/coder/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/home/coder/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/home/coder/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/coder/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/coder/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/coder/.m2/repository/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/coder/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/coder/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/coder/.m2/repository/org/mockito/mockito-junit-jupiter/4.5.1/mockito-junit-jupiter-4.5.1.jar:/home/coder/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/home/coder/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/coder/.m2/repository/org/springframework/spring-core/5.3.30/spring-core-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-jcl/5.3.30/spring-jcl-5.3.30.jar:/home/coder/.m2/repository/org/springframework/spring-test/5.3.30/spring-test-5.3.30.jar:/home/coder/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/aswinhariram/My Creativity/temp/lab4/springapp/target/test-classes:/Users/aswinhariram/My Creativity/temp/lab4/springapp/target/classes:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.2.3/spring-boot-starter-web-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.3/spring-boot-starter-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot/3.2.3/spring-boot-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.3/spring-boot-autoconfigure-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.3/spring-boot-starter-logging-3.2.3.jar:/Users/aswinhariram/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/Users/aswinhariram/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/Users/aswinhariram/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar:/Users/aswinhariram/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/Users/aswinhariram/.m2/repository/org/slf4j/jul-to-slf4j/2.0.12/jul-to-slf4j-2.0.12.jar:/Users/aswinhariram/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/aswinhariram/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.2.3/spring-boot-starter-json-3.2.3.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.2.3/spring-boot-starter-tomcat-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19.jar:/Users/aswinhariram/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.19/tomcat-embed-el-10.1.19.jar:/Users/aswinhariram/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.19/tomcat-embed-websocket-10.1.19.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-web/6.1.4/spring-web-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-beans/6.1.4/spring-beans-6.1.4.jar:/Users/aswinhariram/.m2/repository/io/micrometer/micrometer-observation/1.12.3/micrometer-observation-1.12.3.jar:/Users/aswinhariram/.m2/repository/io/micrometer/micrometer-commons/1.12.3/micrometer-commons-1.12.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-webmvc/6.1.4/spring-webmvc-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-aop/6.1.4/spring-aop-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-context/6.1.4/spring-context-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-expression/6.1.4/spring-expression-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.2.3/spring-boot-starter-data-jpa-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.2.3/spring-boot-starter-aop-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.2.3/spring-boot-starter-jdbc-3.2.3.jar:/Users/aswinhariram/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-jdbc/6.1.4/spring-jdbc-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/hibernate/orm/hibernate-core/6.4.4.Final/hibernate-core-6.4.4.Final.jar:/Users/aswinhariram/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/aswinhariram/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/Users/aswinhariram/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/Users/aswinhariram/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/Users/aswinhariram/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/Users/aswinhariram/.m2/repository/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar:/Users/aswinhariram/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/aswinhariram/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.4/jaxb-runtime-4.0.4.jar:/Users/aswinhariram/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.4/jaxb-core-4.0.4.jar:/Users/aswinhariram/.m2/repository/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.jar:/Users/aswinhariram/.m2/repository/org/glassfish/jaxb/txw2/4.0.4/txw2-4.0.4.jar:/Users/aswinhariram/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/Users/aswinhariram/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/aswinhariram/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/Users/aswinhariram/.m2/repository/org/springframework/data/spring-data-jpa/3.2.3/spring-data-jpa-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/data/spring-data-commons/3.2.3/spring-data-commons-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-orm/6.1.4/spring-orm-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-tx/6.1.4/spring-tx-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-aspects/6.1.4/spring-aspects-6.1.4.jar:/Users/aswinhariram/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar:/Users/aswinhariram/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.2.3/spring-boot-starter-test-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-test/3.2.3/spring-boot-test-3.2.3.jar:/Users/aswinhariram/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.2.3/spring-boot-test-autoconfigure-3.2.3.jar:/Users/aswinhariram/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/aswinhariram/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/Users/aswinhariram/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/aswinhariram/.m2/repository/net/minidev/json-smart/2.5.0/json-smart-2.5.0.jar:/Users/aswinhariram/.m2/repository/net/minidev/accessors-smart/2.5.0/accessors-smart-2.5.0.jar:/Users/aswinhariram/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/aswinhariram/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/aswinhariram/.m2/repository/org/awaitility/awaitility/4.2.0/awaitility-4.2.0.jar:/Users/aswinhariram/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/aswinhariram/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/aswinhariram/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/aswinhariram/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/aswinhariram/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/aswinhariram/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/aswinhariram/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/aswinhariram/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/aswinhariram/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/aswinhariram/.m2/repository/org/mockito/mockito-core/5.7.0/mockito-core-5.7.0.jar:/Users/aswinhariram/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.12/byte-buddy-agent-1.14.12.jar:/Users/aswinhariram/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/aswinhariram/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.jar:/Users/aswinhariram/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/aswinhariram/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-core/6.1.4/spring-core-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-jcl/6.1.4/spring-jcl-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/springframework/spring-test/6.1.4/spring-test-6.1.4.jar:/Users/aswinhariram/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/coder"/>
+    <property name="user.home" value="/Users/aswinhariram"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2024-10-15"/>
-    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/coder/project/workspace/springapp"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="basedir" value="/Users/aswinhariram/My Creativity/temp/lab4/springapp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter13353439069828442414.jar"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/aswinhariram/My Creativity/temp/lab4/springapp/target/surefire/surefirebooter-20250314122048424_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.13+11-Debian-1deb11u1"/>
-    <property name="user.name" value="coder"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="aswinhariram"/>
+    <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="6.1.123+"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="os.version" value="15.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="spring.beaninfo.ignore" value="true"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/coder/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-17"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/aswinhariram/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/mg/9819p0914lq59j13myc7bp000000gn/T/"/>
     <property name="com.zaxxer.hikari.pool_number" value="1"/>
-    <property name="java.version" value="17.0.13"/>
-    <property name="user.dir" value="/home/coder/project/workspace/springapp"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/aswinhariram/My Creativity/temp/lab4/springapp"/>
+    <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="3103"/>
+    <property name="PID" value="31437"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/Users/aswinhariram/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Debian"/>
-    <property name="java.vm.version" value="17.0.13+11-Debian-1deb11u1"/>
-    <property name="java.specification.maintenance.version" value="1"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testPostData" classname="com.examly.springapp.SpringappApplicationTests" time="0.275">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
-	at com.examly.springapp.SpringappApplicationTests.testPostData(SpringappApplicationTests.java:39)
-]]></failure>
-    <system-out><![CDATA[06:40:18.341 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-06:40:18.346 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-06:40:18.376 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.examly.springapp.SpringappApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-06:40:18.385 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.examly.springapp.SpringappApplicationTests], using SpringBootContextLoader
-06:40:18.387 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.examly.springapp.SpringappApplicationTests]: class path resource [com/examly/springapp/SpringappApplicationTests-context.xml] does not exist
-06:40:18.387 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.examly.springapp.SpringappApplicationTests]: class path resource [com/examly/springapp/SpringappApplicationTestsContext.groovy] does not exist
-06:40:18.387 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.examly.springapp.SpringappApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-06:40:18.433 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.examly.springapp.SpringappApplicationTests]
-06:40:18.512 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.examly.springapp.SpringappApplicationTests]: using defaults.
-06:40:18.513 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-06:40:18.523 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7393222f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@babafc2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@31add175, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@ae3540e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@600b9d27, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3688eb5b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@69f1a286, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7922d892, org.springframework.test.context.event.EventPublishingTestExecutionListener@457c9034, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@345f69f3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@50de186c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3f57bcad, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1e8b7643, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@51549490, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@71e9ebae]
-06:40:18.525 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2e48362c testClass = SpringappApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1efe439d testClass = SpringappApplicationTests, locations = '{}', classes = '{class com.examly.springapp.SpringappApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@be68757 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@51c668e3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4a883b15, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@368247b9, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5ab956d7, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6e9175d8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1a8a8f7c], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
-
+  <testcase name="testPostData" classname="com.examly.springapp.SpringappApplicationTests" time="0.407">
+    <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
   '  |____| .__|_| |_|_| |_\__, | / / / /
  =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::               (v2.7.16)
+&amp#27;[32m :: Spring Boot :: &amp#27;[39m              &amp#27;[2m (v3.2.3)&amp#27;[0;39m
 
-2025-03-14 06:40:18.757  INFO 3103 --- [           main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.13 on caebeaaeacabbddbe325121270efefebbbebdcone-0 with PID 3103 (started by coder in /home/coder/project/workspace/springapp)
-2025-03-14 06:40:18.759  INFO 3103 --- [           main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2025-03-14 06:40:19.186  INFO 3103 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-14 06:40:19.194  INFO 3103 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
-2025-03-14 06:40:19.575  INFO 3103 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-14 06:40:19.634  INFO 3103 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
-2025-03-14 06:40:19.725  INFO 3103 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2025-03-14 06:40:19.796  INFO 3103 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14 06:40:19.901  INFO 3103 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14 06:40:19.909  INFO 3103 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2025-03-14 06:40:20.081  INFO 3103 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2025-03-14 06:40:20.087  INFO 3103 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-14 06:40:20.231  WARN 3103 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-14 06:40:20.561  INFO 3103 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-03-14 06:40:20.561  INFO 3103 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-03-14 06:40:20.562  INFO 3103 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2025-03-14 06:40:20.576  INFO 3103 --- [           main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 2.027 seconds (JVM running for 2.756)
+&amp#27;[2m2025-03-14T12:20:48.984+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.e.springapp.SpringappApplicationTests &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Starting SpringappApplicationTests using Java 23.0.1 with PID 31437 (started by aswinhariram in /Users/aswinhariram/My Creativity/temp/lab4/springapp)
+&amp#27;[2m2025-03-14T12:20:48.985+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.e.springapp.SpringappApplicationTests &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m No active profile set, falling back to 1 default profile: "default"
+&amp#27;[2m2025-03-14T12:20:49.248+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36m.s.d.r.c.RepositoryConfigurationDelegate&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+&amp#27;[2m2025-03-14T12:20:49.273+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36m.s.d.r.c.RepositoryConfigurationDelegate&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+&amp#27;[2m2025-03-14T12:20:49.457+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.hibernate.jpa.internal.util.LogHelper &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+&amp#27;[2m2025-03-14T12:20:49.490+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36morg.hibernate.Version                   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000412: Hibernate ORM core version 6.4.4.Final
+&amp#27;[2m2025-03-14T12:20:49.505+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.h.c.internal.RegionFactoryInitiator   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000026: Second-level cache disabled
+&amp#27;[2m2025-03-14T12:20:49.596+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.o.j.p.SpringPersistenceUnitInfo     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+&amp#27;[2m2025-03-14T12:20:49.614+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.zaxxer.hikari.HikariDataSource      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HikariPool-1 - Starting...
+&amp#27;[2m2025-03-14T12:20:49.792+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.zaxxer.hikari.pool.HikariPool       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a345298
+&amp#27;[2m2025-03-14T12:20:49.792+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.zaxxer.hikari.HikariDataSource      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HikariPool-1 - Start completed.
+&amp#27;[2m2025-03-14T12:20:49.820+05:30&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36morg.hibernate.orm.deprecation           &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+&amp#27;[2m2025-03-14T12:20:49.820+05:30&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36morg.hibernate.orm.deprecation           &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+&amp#27;[2m2025-03-14T12:20:50.158+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.h.e.t.j.p.i.JtaPlatformInitiator      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+&amp#27;[2m2025-03-14T12:20:50.184+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mj.LocalContainerEntityManagerFactoryBean&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+&amp#27;[2m2025-03-14T12:20:50.299+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.d.j.r.query.QueryEnhancerFactory    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Hibernate is in classpath; If applicable, HQL parser will be used.
+&amp#27;[2m2025-03-14T12:20:50.609+05:30&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mJpaBaseConfiguration$JpaWebConfiguration&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+&amp#27;[2m2025-03-14T12:20:50.773+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.b.t.m.w.SpringBootMockServletContext&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initializing Spring TestDispatcherServlet ''
+&amp#27;[2m2025-03-14T12:20:50.774+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.t.web.servlet.TestDispatcherServlet &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initializing Servlet ''
+&amp#27;[2m2025-03-14T12:20:50.774+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.t.web.servlet.TestDispatcherServlet &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Completed initialization in 0 ms
+&amp#27;[2m2025-03-14T12:20:50.786+05:30&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m31437&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.e.springapp.SpringappApplicationTests &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Started SpringappApplicationTests in 1.911 seconds (process running for 2.305)
+Hibernate: select e1_0.id,e1_0.address,e1_0.department,e1_0.email,e1_0.hire_date,e1_0.job_title,e1_0.name,e1_0.phone_number,e1_0.salary from employees e1_0 where e1_0.id=?
+Hibernate: insert into employees (address,department,email,hire_date,job_title,name,phone_number,salary,id) values (?,?,?,?,?,?,?,?,?)
+]]></system-out>
+    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/aswinhariram/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.12/byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+  <testcase name="testGetAll" classname="com.examly.springapp.SpringappApplicationTests" time="0.037">
+    <system-out><![CDATA[Hibernate: select e1_0.id,e1_0.address,e1_0.department,e1_0.email,e1_0.hire_date,e1_0.job_title,e1_0.name,e1_0.phone_number,e1_0.salary from employees e1_0
 
 MockHttpServletRequest:
-      HTTP Method = POST
+      HTTP Method = GET
       Request URI = /employee
        Parameters = {}
-          Headers = [Content-Type:"application/json;charset=UTF-8", Accept:"application/json", Content-Length:"206"]
-             Body = {"id": 1, "name": "SampleEmployee","address": "SampleAddress","phoneNumber": "93371023233","email": "sample@gmail.com","jobTitle": "Manager","department": "Finance","salary":30000, "hireDate": "2020-12-12"}
+          Headers = [Accept:"application/json"]
+             Body = null
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.EmployeeController
+           Method = com.examly.springapp.controller.EmployeeController#getAllEmployees()
 
 Async:
     Async started = false
@@ -129,134 +135,18 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
+           Status = 200
     Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = [{"id":1,"name":"SampleEmployee","address":"SampleAddress","phoneNumber":"93371023233","email":"sample@gmail.com","jobTitle":"Manager","department":"Finance","salary":30000.0,"hireDate":"2020-12-12"}]
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAll" classname="com.examly.springapp.SpringappApplicationTests" time="0.011">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
-	at com.examly.springapp.SpringappApplicationTests.testGetAll(SpringappApplicationTests.java:66)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /employee
-       Parameters = {}
-          Headers = [Accept:"application/json"]
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /employee
-       Parameters = {}
-          Headers = [Accept:"application/json"]
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-]]></system-out>
-  </testcase>
-  <testcase name="testGetEmployeeByID" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
-	at com.examly.springapp.SpringappApplicationTests.testGetEmployeeByID(SpringappApplicationTests.java:54)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /employee/1
-       Parameters = {}
-          Headers = [Accept:"application/json"]
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
+  <testcase name="testGetEmployeeByID" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+    <system-out><![CDATA[Hibernate: select e1_0.id,e1_0.address,e1_0.department,e1_0.email,e1_0.hire_date,e1_0.job_title,e1_0.name,e1_0.phone_number,e1_0.salary from employees e1_0 where e1_0.id=?
 
 MockHttpServletRequest:
       HTTP Method = GET
@@ -267,7 +157,8 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.EmployeeController
+           Method = com.examly.springapp.controller.EmployeeController#getEmployeeById(Long)
 
 Async:
     Async started = false
@@ -285,56 +176,18 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
+           Status = 200
     Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":1,"name":"SampleEmployee","address":"SampleAddress","phoneNumber":"93371023233","email":"sample@gmail.com","jobTitle":"Manager","department":"Finance","salary":30000.0,"hireDate":"2020-12-12"}
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="testGetEmployeeByHireDate" classname="com.examly.springapp.SpringappApplicationTests" time="0.011">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
-	at com.examly.springapp.SpringappApplicationTests.testGetEmployeeByHireDate(SpringappApplicationTests.java:82)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /employee/hired/2020-12-12
-       Parameters = {}
-          Headers = [Accept:"application/json"]
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
+  <testcase name="testGetEmployeeByHireDate" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
+    <system-out><![CDATA[Hibernate: select e1_0.id,e1_0.address,e1_0.department,e1_0.email,e1_0.hire_date,e1_0.job_title,e1_0.name,e1_0.phone_number,e1_0.salary from employees e1_0 where e1_0.hire_date=?
 
 MockHttpServletRequest:
       HTTP Method = GET
@@ -345,7 +198,8 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.EmployeeController
+           Method = com.examly.springapp.controller.EmployeeController#getEmployeesByHireDate(String)
 
 Async:
     Async started = false
@@ -363,56 +217,18 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
+           Status = 200
     Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = [{"id":1,"name":"SampleEmployee","address":"SampleAddress","phoneNumber":"93371023233","email":"sample@gmail.com","jobTitle":"Manager","department":"Finance","salary":30000.0,"hireDate":"2020-12-12"}]
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="testGetFirstThreeCharacterNames" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
-	at com.examly.springapp.SpringappApplicationTests.testGetFirstThreeCharacterNames(SpringappApplicationTests.java:97)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /employee/first-three-characters-of-name
-       Parameters = {}
-          Headers = [Accept:"application/json"]
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
+  <testcase name="testGetFirstThreeCharacterNames" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+    <system-out><![CDATA[Hibernate: select substring(e1_0.name,1,3) from employees e1_0
 
 MockHttpServletRequest:
       HTTP Method = GET
@@ -423,7 +239,8 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.EmployeeController
+           Method = com.examly.springapp.controller.EmployeeController#getFirstThreeCharactersOfNames()
 
 Async:
     Async started = false
@@ -441,39 +258,19 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
+           Status = 200
     Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = ["Sam"]
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="testRepositoryFile" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.testRepositoryFile(SpringappApplicationTests.java:123)
-]]></failure>
-  </testcase>
-  <testcase name="testModelFile" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.testModelFile(SpringappApplicationTests.java:116)
-]]></failure>
-  </testcase>
-  <testcase name="testModelFolder" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.testModelFolder(SpringappApplicationTests.java:130)
-]]></failure>
-  </testcase>
-  <testcase name="testControllerFile" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.testControllerFile(SpringappApplicationTests.java:109)
-]]></failure>
-  </testcase>
-  <testcase name="testServiceFile" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.testServiceFile(SpringappApplicationTests.java:137)
-]]></failure>
-  </testcase>
+  <testcase name="testRepositoryFile" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="testModelFile" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="testModelFolder" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="testControllerFile" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="testServiceFile" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
 </testsuite>
